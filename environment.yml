@@ -1,0 +1,5 @@
+name: nlp_bayesian_filter
+channels:
+  - defaults
+prefix: /usr/local/anaconda3/envs/nlp_bayesian_filter
+
