@@ -1,6 +1,16 @@
+NLP Bayesian Filter
+====================
+
+## Install packages to new conda environment
 
 ```bash
-conda create -y -n nlp_bayesian python=3.6 flake8 autopep8
-source activate nlp_bayesian
-pip install janome
+# on this repository
+conda env create -f environment.yml
+```
+
+## Run test
+
+```bash
+conda activate nlp_bayesian
+python setup.py test
 ```
