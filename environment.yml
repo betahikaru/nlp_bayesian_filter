@@ -1,5 +1,12 @@
-name: nlp_bayesian_filter
+name: nlp_bayesian
 channels:
   - defaults
-prefix: /usr/local/anaconda3/envs/nlp_bayesian_filter
-
+dependencies:
+  - autopep8
+  - flake8
+  - pip=19.0
+  - python=3.6
+  - setuptools=40.8
+  - pip:
+    - janome==0.3.7
+    - numpy==1.16.2
